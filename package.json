@@ -1,0 +1,15 @@
+{
+  "name": "first-node-webserver",
+  "version": "1.0.0",
+  "description": "\"First node webserver\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashwath A N",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "hbs": "^4.0.1"
+  }
+}
