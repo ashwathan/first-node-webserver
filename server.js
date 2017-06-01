@@ -17,10 +17,10 @@ app.use((req, res, next)=>{
   fs.appendFile('server.log', log + '\n', err=>{if(err)console.log("Not able to append")});
   next();
 });
-app.use((req, res, next)=>{
-  res.render('maintenance.hbs');
-  //next();
-});
+// app.use((req, res, next)=>{
+//   res.render('maintenance.hbs');
+//   //next();
+// });
 app.use(express.static(__dirname + '/public'));
 app.get('/', (request, response)=>{
   response.render('home.hbs',{
